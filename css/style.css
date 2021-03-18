@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+nav{
+    padding: 25px;
+    display:inline;/*con inline hacemos que la propidead nos permita usar el float*/
+    
+}
+.nav_v{
+    background: lightcoral;
+    padding:5px;
+    margin-left: 15px;
+    float: left;
+}
+.nav_v img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.nav_j{
+   float: right;
+   margin-right: 5%;
+    margin: 20px;
+ 
+}
+.nav_j a{
+    
+    text-decoration: none;
+    margin-left: 80px;
+    
+    
+}
+section .sect1{
+    padding-top: 50px;
+}
