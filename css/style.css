@@ -1,40 +1,91 @@
-*{
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 body{
     margin: 0;
 }
+a{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h3{
+
+}
+p{
+    font-family: 'Merriweather Sans', sans-serif; 
+    
+}
 
 nav{
-    padding: 25px;
-    display:inline;/*con inline hacemos que la propidead nos permita usar el float*/
+    display: block;
+    background: lavenderblush;
+    padding: 30px;
+}
+/*new nav*/
+.nav-col{
     
+    background-color: lavenderblush;
 }
-.nav_v{
-    background: lightcoral;
-    padding:5px;
-    margin-left: 15px;
-    float: left;
+
+.menu{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 15px;
 }
-.nav_v img{
-    margin: 10px;
-    width: 40px;
-    height: 40px;
-    float: left;
-}
-.nav_j{
-   float: right;
-   margin-right: 5%;
-    margin: 20px;
- 
-}
-.nav_j a{
-    
+.menu a{
     text-decoration: none;
-    margin-left: 80px;
+    margin: 15px;
     
+
+}
+.logo{
+    float: left;
+    margin: 0;
+    text-align: center;
     
 }
-section .sect1{
-    padding-top: 50px;
+/*then nav*/
+
+
+/*new  section*/
+section{
+    margin-top: 100px;
+    display: flex;
+}
+.tabla{
+    display: inline-block;
+    width: 50%;/*responsive - width=100% */
+}
+.tabla p{
+    padding: 45px;
+}
+.tabla img{
+margin-left: 40%;    
+    width: 100px;
+}
+
+/*then section*/
+
+aside{
+    padding: 30px;
+    display: flex;/*flex para poder hacer las funciones de cajas*/
+}
+.conten{
+    text-align: right;
+}
+.asidek{
+    margin: 20px 20px 20px;
+    padding: 100px;
+    text-align: left;
+    
+}
+.asideh{
+    padding: 100px;
+    text-align: center;
+}
+.img2{
+    text-align: center;
+    margin-top: 100px;
+}
+.img2 img{
+    width: 400px;
+    height: 200px; 
+    border-radius: 25px;
 }
