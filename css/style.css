@@ -64,28 +64,85 @@ margin-left: 40%;
 /*then section*/
 
 aside{
+     background-color: rgb(184, 240, 240);
+    margin-top: 100px;
     padding: 30px;
     display: flex;/*flex para poder hacer las funciones de cajas*/
 }
 .conten{
+    background: rgb(231, 179, 182);
     text-align: right;
+    border-radius: 10px;
+    
+   
 }
+.asideh{
+    padding:40px;
+    margin: 20px;
+    text-align: center;
+    background: rgb(135, 147, 214);
+    border-radius: 15px;
+}
+
 .asidek{
-    margin: 20px 20px 20px;
+    margin: 0px 20px 20px;
     padding: 100px;
     text-align: left;
     
-}
-.asideh{
-    padding: 100px;
-    text-align: center;
+    
 }
 .img2{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .img2 img{
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
     width: 400px;
-    height: 200px; 
-    border-radius: 25px;
+    height: 400px; 
+    border-radius: 10px;
+}
+
+/*display*/
+@media (max-width: 600px){
+
+/*section*/
+section{
+    display: block;
+}
+.tabla{
+    width: 100%;
+}
+
+/*then section*/
+
+
+aside{
+    display:block;
+}
+.asidek{
+   
+    width: 100%;
+    margin: 0px ;
+    padding: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.img2{
+    
+    text-align: center;}
+
+    .img2 img{
+    width: 80%;
+    height: 400%;
+
+}
+.conten{
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+    padding: 5px 0px;
+}
+
 }
